@@ -1,0 +1,27 @@
+The aim of this game is to escape the dungeon of doom... to do so you must collect all the gold pieces within the dungeon and make it to an escape point.
+To complete these objectives, you have been provided with a series of actions
+
+'HELLO' - This will display the total amount of gold you will need to escape
+
+'GOLD' - This will display how much gold you currently posses
+
+'MOVE <DIRECTION>' - This will move your player up, down, left or right in the dungeon 
+depending on your choice of direction, NORTH (N), EAST (E), SOUTH (S) or WEST (W).
+
+'PICKUP' - This will pick up any gold you are standing on and add it to your total collection
+
+'LOOK' - This will show you the area surrounding your player (5x5)
+
+'QUIT' - This command will finish the game, keep in mind you must be on an exit tile (E), with the correct amount of gold in order to win when you quit.
+
+REMEMBER - every action will count as a turn, successful or not, and for each turn you will be hunted
+
+A computer controlled BOT (B) will be searching for you around the dungeon, and if it sees you... it will chase. If this Bot reaches your tile at the end of you turn after it moves. YOU WILL LOSE.
+
+GOOD LUCK
+
+TO RUN:
+to run the code from cmd console, type 'javac *.java' to compile followed by 'java Main' to start the game (at the directory of the file containing all given files) 
+
+CODE:
+I would have liked to do it again more efficiently by sharing more methods between bot and logic for player. And to add more functionaility to the player class and create a bot as an extension of player
